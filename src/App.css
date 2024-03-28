@@ -1,0 +1,190 @@
+.sign-up-container
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.sign-up-form
+{
+    width:350px;
+    padding:20px;
+    border:1px solid #ccc;
+    box-shadow: 5px 5px 6px 5px gray;
+    border-radius: 8px;
+    /* box-shadow: 0 0 10px rgba(0,0,0,0.1); */
+    color:aqua
+}
+
+label{
+    display:block;
+    margin-bottom: 8px;
+    color:aliceblue;
+}
+
+input{
+    width:100%;
+    padding:8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+button{
+    width:50%;
+ 
+    padding:10px;
+    background-color: rgb(7, 185, 255);
+    color:black;
+    font-style: italic;
+    font-size:medium;
+     font-weight: bold;
+    cursor:pointer;
+}
+
+button:hover{
+    background-color: #235b93;
+    color:aqua
+}
+
+.con{
+   display: flex;
+   gap:30px;
+   width:700px;
+   position:absolute;
+   top:360px;
+   right:380px
+
+}
+
+img{
+    width: 100%;
+    position: relative;
+    
+}
+
+.but1
+{
+    background-color:rgb(247, 242, 240);
+    text-decoration: none;
+    border-radius:30px;
+    width:360px;
+    border:1px solid black;
+    
+}
+
+@media screen and (max-width:600px) {
+    .but1{
+     /* margin-left:400px; */
+     position:absolute;
+     left:900px;
+    }
+    
+}
+@media screen and (max-width:900px) {
+    .but2{
+        position:absolute;
+        left:500px;
+     margin-left:0px;
+    }
+    
+}
+
+.but1:hover{
+    background-color: aquamarine;
+    color:black
+}
+
+.link1
+{
+    color:rgb(78, 16, 211);
+    font-style: italic;
+    font-weight: 800;
+    font-size:large;
+    text-decoration: none;
+}
+
+.link1:hover{
+    color:black
+}
+
+
+h2{
+    text-align: center;
+}
+
+.log
+{
+    float: right;
+    width:180px;
+    border-radius: 30px;
+    color:black;
+   text-decoration: none;
+   padding: 4px;
+   font-style: italic;
+   font-weight: 800;
+   font-size: larger;
+}
+
+
+.content
+{
+    margin-top:20px;
+   margin-bottom: 30px;
+   border-radius:60px;
+    background-image: url("https://images.hdqwalls.com/download/nebula-15k-fo-7680x4320.jpg");
+}
+
+.content2
+{
+    margin-top:20px;
+   margin-bottom: 30px;
+   border-radius:60px;
+    background-image: url("https://img.freepik.com/premium-photo/colorful-night-sky-space-nebula-galaxies-space-astronomy-concept-background_303714-562.jpg");
+}
+
+.content3
+{
+    margin-top:20px;
+   margin-bottom: 30px;
+   border-radius:60px;
+    background-image: url("https://e1.pxfuel.com/desktop-wallpaper/622/1021/desktop-wallpaper-quattuor-simplex-for-youtube-channel-art-channel-art.jpg");
+}
+
+.content4
+{
+   margin-top:20px;
+   margin-bottom: 30px;
+   border-radius:60px;
+    background-image: url("https://wallpapercave.com/wp/BqMlbUQ.jpg");
+}
+
+
+@media screen and (max-width:900px) {
+    .first{
+      width:150% !important;
+    }
+    
+}
+
+
+@media screen and (max-width:768px) {
+    .sign-up-form{
+      width: 80%;
+      margin:0 auto
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .sign-up-form {
+        width: 90%; /* Further adjust width for smaller screens */
+    }
+    
+    input[type="text"],
+    input[type="email"],
+    input[type="password"] {
+        font-size: 14px; /* Decrease font size for inputs */
+    }
+  }
+  
